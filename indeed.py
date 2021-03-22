@@ -15,8 +15,8 @@ dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 
 # Accessing variables.
-email = os.getenv('LINKEDIN_EMAIL')
-password = os.getenv('LINKEDIN_PASSWORD')
+email = os.getenv('INDEED_EMAIL')
+password = os.getenv('INDEED_PASSWORD')
 
 # Setting up Browser configurations
 PATH = "/usr/local/bin/chromedriver"
